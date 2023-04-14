@@ -46,7 +46,7 @@ Family Functions understands the intensity of parenthood aims to streamline the 
  - View and redeem points
 
 
-<!-- ## Project Documents 📄
-- App Demo
-- Interactive App Demo
-- Presentation -->
+## 📄 Project Documents 
+- 📱 <a href="https://drive.google.com/file/d/1Ycv7K6i9S_CuN4k4e9IcxekFHElghUlp/view?usp=sharing">App Demo</a> 
+- 👆🏾 <a href="https://www.figma.com/proto/Pm46YntVRDnSMrhE7YvJrG/Team-14-Prototype?node-id=1-2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2">Interactive Prototype</a> 
+- 🗺 <a href="https://prezi.com/p/enskacgbp9x2/?present=1">Project Overview </a> 
