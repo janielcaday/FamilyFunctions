@@ -13,7 +13,7 @@ Family Functions understands the intensity of parenthood aims to streamline the 
 
 ## Features 💫
 - [x] User Authentication
-- [x] Admin-like Accessibility
+- [x] User-based Interface
 - [x] Family Authentication
 - [x] Task Creation
 - [x] Task Tracking
