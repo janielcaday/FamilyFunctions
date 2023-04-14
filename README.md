@@ -3,7 +3,7 @@
 https://github.com/janielcaday/FamilyFunctions/blob/main/app/src/main/res/drawable/familyicon.xml
 
 <p align ="center">
-    <img src="https://github.com/janielcaday/FamilyFunctions/blob/main/undraw_family_vg76%20(2).png" width="100" title="Family Functions Logo"/>
+    <img src="https://github.com/janielcaday/FamilyFunctions/blob/main/undraw_family_vg76%20(2).png" width="500" title="Family Functions Logo"/>
 </p>
 
 ---
