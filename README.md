@@ -6,12 +6,12 @@
 
 ---
 
-## Project Description 📝
+## 📝 Project Description
 Family Functions is an Android-based mobile application that allows users to manage daily household chores efficiently. The app provides a user-friendly interface and makes the process of verifying and assigned household chores more seamless.
 
 Family Functions understands the intensity of parenthood aims to streamline the process of making sure tasks and chores are done with both efficiency and care. Using Family Functions' verification system, it adds an extra layer of security and discipline to keeping a household running. Family Functions also understands both the assigning and receiving ends of house duties and aims to motivate children with a point system that proves that hardwork pays off.
 
-## Features 💫
+## 💫 Features 
 - [x] User Authentication
 - [x] User-based Interface
 - [x] Family Authentication
@@ -21,7 +21,7 @@ Family Functions understands the intensity of parenthood aims to streamline the 
 - [x] History Insights
 - [x] Point Management System
 
-## Tech Stack 🕹
+## 🕹 Tech Stack 
 - Design: Figma <img src="https://www.svgrepo.com/show/448222/figma.svg" width="20" title="Figma"/>
 - Front-End: XML <img src="https://www.svgrepo.com/show/375305/xml-document.svg" width="14" title="XML"/>
 - Back-End: Java <img src="https://seeklogo.com/images/J/java-logo-7F8B35BAB3-seeklogo.com.png" width="14" title="Java"/>
@@ -30,7 +30,7 @@ Family Functions understands the intensity of parenthood aims to streamline the 
     - Firebase Realtime Databse
     - Firebase Storage
 
-## Usage 🎯
+## 🎯 Usage 
 ### Parents:
  - Register family with an automatically generated code
  - Create chores with a title, description, amount of points worth, and who the chore will be assigned to
