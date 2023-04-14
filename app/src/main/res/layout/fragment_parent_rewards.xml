@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ParentRewardsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/rewardsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rewards Screen"
+        android:textSize="26dp"
+        android:textColor="@color/primary_dark"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/parent_rewards_photo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/rewardsTitle"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/parent_rewards_photo"/>
+
+    <ListView
+        android:id="@+id/rewards_list"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:layout_below="@+id/parent_rewards_photo"/>
+
+    <Button
+        android:id="@+id/add_reward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rewards_list"
+        android:layout_marginTop="10dp"
+        android:text="ADD A NEW REWARD"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>

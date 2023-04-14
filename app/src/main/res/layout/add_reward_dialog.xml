@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="20dp"
+    android:paddingBottom="100dp">
+
+    <EditText
+        android:id="@+id/dTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Reward Title"/>
+
+    <EditText
+        android:id="@+id/dDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Reward Description"
+        android:layout_below="@id/dTitle"
+        android:inputType="textMultiLine"/>
+
+    <EditText
+        android:id="@+id/dPoints"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Points Rewarded"
+        android:layout_below="@id/dDescription"
+        android:ems="10"
+        android:inputType="numberSigned" />
+
+    <Button
+        android:id="@+id/submitReward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dPoints"
+        android:layout_centerInParent="true"
+        android:text="ADD REWARD!"/>
+
+    <TextView
+        android:id="@+id/dClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/submitReward"
+        android:text="CLOSE"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

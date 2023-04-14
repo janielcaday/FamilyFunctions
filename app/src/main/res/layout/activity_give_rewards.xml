@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GiveRewardsActivity">
+
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="CLOSE"/>
+
+        <TextView
+            android:id="@+id/submit_award"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT AWARD"
+            android:textColor="@color/primary_light"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/titleOfScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="REWARDS ASSIGNMENT"
+        android:layout_below="@id/relative_layout"
+        android:textColor="@color/primary_dark"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center"/>
+    <ProgressBar
+        android:id="@+id/progress"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_below="@id/titleOfScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
+
+    <TextView
+        android:id="@+id/points_awarded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progress"
+        android:textColor="@color/primary_dark"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Points: "
+        android:layout_centerHorizontal="true"/>
+
+    <Spinner
+        android:id="@+id/rewards_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/points_awarded"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"/>
+
+
+
+
+
+</RelativeLayout>

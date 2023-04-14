@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "536302587888",
+    "project_id": "familyfunctions-team14",
+    "storage_bucket": "familyfunctions-team14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536302587888:android:1ae2d07c7f22b1f5aa9735",
+        "android_client_info": {
+          "package_name": "com.example.familfunctions_team14"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536302587888-isfmdpk3mjjo76p5h0dnqufbib0d9n6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6S5Q1vp6sFD5Avmqm9OqytNQ2z_PqqkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "536302587888-isfmdpk3mjjo76p5h0dnqufbib0d9n6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

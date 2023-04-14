@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ParentHomeFragment">
+
+    <ImageView
+        android:id="@+id/child_home_background"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/user_spotlight" />
+
+    <ImageView
+        android:id="@+id/parent_home_photo"
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/parent_main_picture"/>
+
+    <TextView
+        android:id="@+id/parentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/parent_home_photo"
+        android:text="parentName"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/child_home_background"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="285dp"
+        android:text="logout"/>
+
+
+    <TextView
+        android:id="@+id/dateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/clock"
+        android:text="dateTime"
+        android:textColor="@color/primary_dark"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <AnalogClock
+        android:id="@+id/clock"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/code_image_background"/>
+
+    <TextView
+        android:id="@+id/familyLinkCode"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/link_code_background"
+        android:text="Home Screen"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:textColor="@color/navy"
+        android:textSize="26dp"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
+
+
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".ParentHomeFragment">-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:layout_marginTop="0dp"-->
+<!--        android:background="@drawable/user_spotlight" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/parent_home_photo"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:background="@drawable/parent_main_picture"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/parentName"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="-130dp"-->
+<!--        android:text="parentName"-->
+<!--        android:textAllCaps="true"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/logout"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="255dp"-->
+<!--        android:layout_marginStart="285dp"-->
+<!--        android:text="logout"/>-->
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/dateTime"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="200dp"-->
+<!--        android:text="dateTime"-->
+<!--        android:textColor="@color/primary_dark"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textStyle="italic" />-->
+
+<!--    <AnalogClock-->
+<!--        android:id="@+id/clock"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:layout_marginTop="350dp"-->
+<!--        android:layout_gravity="center_horizontal"/>-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_gravity="bottom|center"-->
+<!--        android:background="@drawable/code_image_background"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/familyLinkCode"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@drawable/link_code_background"-->
+<!--        android:text="Home Screen"-->
+<!--        android:textAlignment="center"-->
+<!--        android:padding="5dp"-->
+<!--        android:textColor="@color/navy"-->
+<!--        android:textSize="26dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:layout_gravity="bottom|center"/>-->
+
+<!--</FrameLayout>-->

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ParentHistoryFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/history_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chore History"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/primary_dark"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/history_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="These are all chores that have ever been created."
+        android:textStyle="italic"
+        android:textColor="@color/primary_dark"
+        android:layout_below="@id/history_title"
+        android:layout_centerHorizontal="true"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/history_description"
+        android:layout_marginTop="10dp"/>
+
+<!--    <TextView-->
+<!--        android:id="@+id/title_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="Title: "/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/description_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/title_view"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="Description: "/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/points_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/description_view"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="Points: "/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/createChoreButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/points_view"-->
+<!--        android:text="Create Chore"/>-->
+
+<!--    <ListView-->
+<!--        android:id="@+id/chore_list"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/createChoreButton"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:padding="10dp"-->
+<!--        />-->
+
+
+
+
+<!--&lt;!&ndash;    &lt;!&ndash; TODO: Update blank fragment layout &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;    <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:text="History Screen"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:textSize="26dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_gravity="center"/>&ndash;&gt;-->
+
+</RelativeLayout>
